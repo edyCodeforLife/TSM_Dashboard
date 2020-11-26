@@ -7,6 +7,7 @@ function Building(props){
 	return(
 		<div className="buildingContainer">
 			<Table
+				bordered
 				rowKey={rowkey}
 				dataSource={dataSource}
 				pagination={pagination}

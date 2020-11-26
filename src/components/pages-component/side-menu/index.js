@@ -4,13 +4,8 @@ import { AlignRightOutlined, HomeOutlined, MinusSquareOutlined } from '@ant-desi
 
 function SideMenu(props){
 
+	const { handleClick, current } = props;
 	const { Item } = Menu;
-	const [ current, setCurrent ] = useState('1');
-
-	const handleClick = (e) => {
-		console.log(e)
-		setCurrent(e.key)
-	};
 
 	return(
 		<div style={{height: '-webkit-fill-available'}}>
@@ -23,7 +18,7 @@ function SideMenu(props){
 				mode="inline"
 				>
 
-					<Item style={{fontSize: 20}}>
+					<Item key="sub0" style={{fontSize: 20}}>
 						<span style={{marginRight: 90 }}>Dashboard</span>
 						<AlignRightOutlined/>
 					</Item>
