@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../components/app.scss";
 import { Statistic, Card, Row, Col } from 'antd';
-import { FallOutlined, RiseOutlined, ArrowDownOutlined } from '@ant-design/icons';
+import { FallOutlined, RiseOutlined } from '@ant-design/icons';
 import { PlayCircleFilled, HomeFilled } from '@ant-design/icons';
 import SideMenu  from '../../components/pages-component/side-menu/index';
 import Building from '../../components/pages-component/building/building';
