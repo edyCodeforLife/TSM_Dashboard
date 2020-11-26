@@ -9,6 +9,10 @@ Hello, My name Edy Susanto i make simple web apps dashboard for PT. Tata Sarana 
 
 I use React with [Ant Design of React](http://ant.design).
 
+# Demo
+
+You can access the demo version of the web apps [here](https://tsm-dashboard.netlify.app/).
+
 # Feature
 
 1. Clean UI
